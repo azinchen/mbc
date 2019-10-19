@@ -18,15 +18,15 @@ Usage: MBCCmd [-c <level>] [-d] [-r] [-v] [-l <log>] [-a] <<filename.epub/.epub.
               [...]|<directory>> <destination>
 ```
 
-  `-c <level>` compression level for kindlegen, see kindlegen help for details
-  `-d` delete source file if conversion success
-  `-r` overwrite destination
-  `-v` verbose output for kindlegen, see kindlegen help for details
-  `-l <log>` create log file with name <log>
-  `-a` show kindlegen output
-  `<filename.epub/.epub.zip/.fb2/.fb2.zip>` source file, source files shall be separated by space
-  `<directory>` source directory, directory structure will be preserved in destination
-  `<destination>` destination directory
+`-c <level>` compression level for kindlegen, see kindlegen help for details
+`-d` delete source file if conversion success
+`-r` overwrite destination
+`-v` verbose output for kindlegen, see kindlegen help for details
+`-l <log>` create log file with name <log>
+`-a` show kindlegen output
+`<filename.epub/.epub.zip/.fb2/.fb2.zip>` source file, source files shall be separated by space
+`<directory>` source directory, directory structure will be preserved in destination
+`<destination>` destination directory
 
-#Release history
+# Release history
 v 1.0 Initial version
